@@ -23,6 +23,7 @@ pkgs.mkShell {
     pkg-config
     quictls
     rocksdb
+    secp256k1
     xdp-tools
     zstd
 

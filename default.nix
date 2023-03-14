@@ -20,6 +20,7 @@ stdenv.mkDerivation rec {
     pkgs.libbpf
     pkgs.pkg-config
     pkgs.quictls
+    pkgs.secp256k1
   ];
 
   buildPhase = ''
